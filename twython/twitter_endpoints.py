@@ -43,7 +43,7 @@ api_table = {
 
     # Interfacing with friends/followers
     'getUserMentions': {
-        'url': '/statuses/mentions.json',
+        'url': '/statuses/mentions_timeline.json',
         'method': 'GET',
     },
     'createFriendship': {
